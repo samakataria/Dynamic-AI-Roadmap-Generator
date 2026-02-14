@@ -1,0 +1,367 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.data-container {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.error-text {
+  color: red;
+}
+
+.loading-text {
+  color: blue;
+}
+
+pre {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h3 {
+  color: #34495e;
+}
+
+/* Form container styles */
+.form-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input{
+  width: 97%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+}
+.risk{
+  width: 900px;
+  display: block;
+
+}
+.Capacity{
+  width: 900px;
+  display: block;
+}
+button {
+  background-color: #207385;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #60c9cf;
+}
+
+/* Roadmap Page Styling 
+.roadmap-container {
+  margin: 50px auto;
+  max-width: 1000px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap-section {
+  margin-bottom: 30px;
+}
+
+.roadmap-section h3 {
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.roadmap-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.roadmap-table th, .roadmap-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.roadmap-table th {
+  background-color: #2980b9;
+  color: white;
+}
+
+.roadmap-table td {
+  background-color: #f9f9f9;
+}
+
+.roadmap-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}*/
+
+/* Back link styling */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #f6f9fa;
+}
+
+.input-container{
+  background-color: #8cbbe6;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding-left:30px;
+  padding-top: 10px;
+  align-items: center;
+  width: 400px;
+  height: 150px;
+  justify-content: center;
+}
+.new-btn{
+  background-color: #148aab;
+  color: white;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Roadmap Container */
+.data-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f4f9fc; /* soft light background */
+  border-radius: 12px;
+  border: 1px solid #cce1f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+
+.data-container h2 {
+  color: #0b486b; /* deep blue */
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  list-style: none;
+}
+.data-container li > h2 {
+  list-style: none;
+}
+/* Roadmap bullet list */
+.roadmap-list {
+  list-style-type: disc; /* bullets */
+  padding-left: 25px; /*spacing from container*/ 
+  margin-top: 10px;
+}
+
+/* Individual roadmap items */
+.roadmap-item {
+  margin-bottom: 10px; /* spacing between bullets */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #034f84; /* dark blue text */
+}
+
+/* Bullet color */
+.roadmap-item::marker {
+  color: #148aab; /* teal accent color */
+  font-weight: bold;
+}
+
+/* Optional hover effect for readability */
+.roadmap-item:hover {
+  background-color: #e0f3fa;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+/* ===== Overall Page Background ===== */
+
+
+/* ===== Main Chat Container ===== */
+.chat-container {
+  background-color: #ffffff;
+  width: 500px;
+  height: 700px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ===== Chat Title ===== */
+.chat-container h1 {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 20px;
+}
+
+/* ===== Chat Messages Area ===== */
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #f1f6fc;
+}
+
+/* ===== Common Message Style ===== */
+.message {
+  max-width: 75%;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* ===== User Message ===== */
+.message.user {
+  background-color: #1e90ff;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 5px;
+}
+
+/* ===== Bot Message ===== */
+.message.bot {
+  background-color: #e3ecf9;
+  color: #333;
+  align-self: flex-start;
+  border-bottom-left-radius: 5px;
+}
+
+/* ===== Input Area ===== */
+.input-container {
+  display: flex;
+  padding: 10px;
+  background-color: #f1f6fc;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== Input Box ===== */
+.Message {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+/* ===== Input Focus Effect ===== */
+.Message:focus {
+  border-color: #1e90ff;
+}
+
+/* ===== Send Button ===== */
+.new-btn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px ;
+  border-radius: 8px;
+  border: none;
+  background-color: #204b74;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ===== Button Hover ===== */
+.new-btn:hover {
+  background-color: #0f6fcf;
+}
+
+/* ===== Disabled Button ===== 
+.new-btn:disabled {
+  background-color: #9ec9f5;
+  cursor: not-allowed;
+}*/
+
+
